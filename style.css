@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header h1{
+  font-family: "Staatliches", sans-serif;
+  font-weight: normal;
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 18px;
+  
+}
+
+header p{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: #fff;
+    
+    width: 416px;
+}
+
+.page{
+    width: 736px;
+    margin: auto;
+    margin-top: 140px;
+    
+}
+
+form{
+    margin-top: 38px;
+    border-radius: 8px 8px 0 0;
+    background: #FFF;
+    min-height: 300px;
+    width: 750px;
+
+    padding: 64px;
+
+    display: flex;
+    flex-direction:column;
+    gap: 48px;
+}
+
+fieldset{
+    border: none;
+}
+
+fieldset legend{
+    font-family: "Staatliches", sans-serif;
+    font-size: 24px;
+    color: #535971;
+
+    border-bottom: 1px solid #e6e6f0;
+    padding-bottom: 16px;
+
+    
+}
+
+.fieldset-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+#nomes{
+    display: flex;
+   
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nome, #sobrenome{
+    width: 300px;
+}
+
+.input-wrapper input{
+    background: #FAFAFC;
+
+    border: 1px solid #e6e6f0;
+    border-radius: 8px;
+    
+    height: 56px;
+    padding: 0 24px;
+
+    color: #6c6a71;
+}
+
+.input-wrapper label{
+    margin-bottom: 8px;
+}
+
+.input-wrapper span{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    color: #C1BCCC;
+}
+
+body, input {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;;
+}
+
+
+body{
+    background: #E5E5E5;
+}
+
+
+body::before{
+    content: '';
+
+    width: 100%;
+    height: 436px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    z-index: -1;
+    background: #535971;
+}
+
+#primeira-mentoria, #segunda-mentoria{
+    width: 300px;
+}
+
+#primeira-mentoria-begin, #primeira-mentoria-end, #segunda-mentoria-begin, #segunda-mentoria-end {
+    width: 140px;
+}
+
+.fieldset-wrapper-02, .fieldset-wrapper-03{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+#primeira, #segunda{
+    display: flex;
+    justify-content: space-between;
+        
+}
+
+#primeira{
+    margin-bottom: 16px;
+}
+
+#segunda{
+    margin-bottom: 64px;
+}
+
+p{
+    margin-bottom: 8px;
+    font-family: "Staatliches", sans-serif;
+    font-size: 20px;
+    color: #535971;   
+    
+}
+
+#mentoria-01 p{
+    margin-top: 32px;
+}
+
+#mentoria-02 p{
+    margin-top: 16px;
+}
+
+
+footer{
+    height: 160px;
+    background: #535971;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 52px 71px;
+
+    border-radius: 0 0 8px 8px;
+
+}
+
+footer .button{
+    background: #FF5374;
+
+    height: 56px;
+    width: 608px;
+
+    border-radius: 16px;
+    border: 0;
+
+    font-family: "Staatliches", sans-serif;
+    color: #FFF;
+    font-size: 20px;
+    
+    
+}
